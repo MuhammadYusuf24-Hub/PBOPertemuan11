@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2a5fefed-8844-4d76-9aa7-55edf066ebc9">
+	<property name="ireport.zoom" value="1.3310000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="New Dataset 1" uuid="3a0fb101-ecff-491c-94ef-a2a760fb86f6">
+		<queryString language="SQL">
+			<![CDATA[SELECT * FROM dataminuman]]>
+		</queryString>
+		<field name="id_minuman" class="java.lang.Integer"/>
+		<field name="nama" class="java.lang.String"/>
+		<field name="kategori" class="java.lang.String"/>
+		<field name="harga" class="java.lang.Integer"/>
+		<field name="ukuran" class="java.lang.String"/>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM dataminuman]]>
+	</queryString>
+	<field name="id_minuman" class="java.lang.Integer"/>
+	<field name="nama" class="java.lang.String"/>
+	<field name="kategori" class="java.lang.String"/>
+	<field name="harga" class="java.lang.Integer"/>
+	<field name="ukuran" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<image>
+				<reportElement x="28" y="-11" width="89" height="80" uuid="cbbc068c-a732-44c7-9f14-a54f09177064"/>
+				<imageExpression><![CDATA["C:\\Users\\LENOVO\\Documents\\NetBeansProjects\\Pertemuan10\\src\\Upload\\op.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="146" y="0" width="265" height="34" uuid="e87e89dd-8382-4631-83bd-0904bfa2a789"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[COFFEE SHOP]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="69" width="555" height="1" uuid="52f89ab4-8849-4b67-a91b-c67431c725b5"/>
+			</line>
+			<staticText>
+				<reportElement x="136" y="34" width="285" height="35" uuid="82be326c-002a-456b-b06e-1319565a91aa"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Jl. Raya Darmo No. 128, Kelurahan Wonokromo,
+Kecamatan Wonokromo, Kota Surabaya, Jawa Timur 60241]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="46" splitType="Stretch">
+			<staticText>
+				<reportElement x="165" y="10" width="225" height="26" uuid="693f3d99-017c-41af-b989-061491a58dfc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="17" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN PENJUALAN]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="341" y="0" width="114" height="20" uuid="04b7f0d6-880f-497e-ab36-b289066fe478"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="455" y="0" width="82" height="20" uuid="32cb42f6-6bb7-45e9-8293-55072a74d5b1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="231" y="0" width="110" height="20" uuid="3744ecd7-2566-4a73-8a99-c7f3a24399be"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="99" y="0" width="132" height="20" uuid="e119d6a0-9ac2-459a-9efb-a6897a40506a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="16" y="0" width="84" height="20" uuid="940dc812-2e5f-45db-a1b0-3d93bf25c77d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="16" y="0" width="83" height="20" uuid="b5581ff3-63ba-45ba-a247-c14caa03f448"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID Minuman]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="131" height="20" uuid="6bacf659-755c-4a70-a142-33577f0be3f7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nama Minuman]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="231" y="0" width="110" height="20" uuid="e8c3c6a8-66ea-4083-9191-9420f29c77f6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kategori]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="341" y="0" width="114" height="20" uuid="13904abd-54b7-4f9a-8423-d9244040a770"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Harga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="0" width="82" height="20" uuid="13673ada-e5ff-42be-8e32-5836260c8eda"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ukuran]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="16" y="0" width="83" height="20" uuid="86eec47f-8149-4bdf-a96e-ff6fe12a3d24"/>
+			</rectangle>
+			<textField>
+				<reportElement x="16" y="0" width="83" height="20" uuid="40edd559-48b3-4765-8852-511c33597d97"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{id_minuman}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="455" y="0" width="82" height="20" uuid="7d1928c9-e27a-441a-855f-4311a0b29757"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="341" y="0" width="114" height="20" uuid="47efbad1-d29e-4645-aa9d-dd41804f8c8b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="231" y="0" width="110" height="20" uuid="0affd880-3fcf-4a84-ae55-e1da541f966b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="100" y="0" width="131" height="20" uuid="d062071d-f114-4b13-9af1-f33272a433af"/>
+			</rectangle>
+			<textField>
+				<reportElement x="117" y="0" width="114" height="20" uuid="6e66cb1e-fa61-4103-9380-42bb78dd1a74"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="249" y="0" width="92" height="20" uuid="95e0a25d-1756-44c3-bf40-d534bef4404e"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{kategori}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="341" y="0" width="114" height="20" uuid="200dd034-8c56-4be5-86cb-29ebe2454e90"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{harga}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="82" height="20" uuid="667a3ace-750a-4984-9f58-3bb8cf0aef82"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{ukuran}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="197" splitType="Stretch">
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="437" y="11" width="89" height="20" uuid="9cb0c5a3-7235-4e7d-977c-8a52b4920629"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="390" y="97" width="136" height="20" uuid="a9f9dc3a-e7df-497f-bd69-955b61bddc16"/>
+				<text><![CDATA[Muhammad Yusuf Multazam]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="11" width="47" height="20" uuid="a10a4d9b-572c-4d20-87c9-40257404aac1"/>
+				<text><![CDATA[Surabaya, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="421" y="31" width="58" height="20" uuid="c1b6d6c6-b6fb-4153-ba8b-810d09265f2a"/>
+				<text><![CDATA[Kepala Cafe]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
