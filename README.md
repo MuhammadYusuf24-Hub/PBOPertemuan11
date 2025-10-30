@@ -38,24 +38,24 @@ Merupakan konfigurasi utama JPA yang berisi informasi tentang nama database, dri
 7.	Jika sudah maka pada project akan secara otomatis muncul pacakage META-INF dan class java baru (Dataminuman_1.java)
  <img width="544" height="471" alt="image" src="https://github.com/user-attachments/assets/873b3330-0f46-41a5-bd11-2703d6afef5b" />
 
-8.	Kemudian masuk ke design jform dan tambahkan source code berikut pada setiap button 
-Button Insert :
+8.	Kemudian masuk ke design jform dan tambahkan source code berikut pada setiap button  
+Button Insert :  
  <img width="871" height="547" alt="image" src="https://github.com/user-attachments/assets/4d45f73c-7933-4099-99a1-b9ac9506a4ed" />  
  <img width="753" height="191" alt="image" src="https://github.com/user-attachments/assets/54a4ea84-5caa-49c3-88d5-68c53d87c461" />
 
-Button Update :
+Button Update :  
  <img width="766" height="516" alt="image" src="https://github.com/user-attachments/assets/20191765-fab7-4734-81ad-5d259229050f" />  
  <img width="670" height="75" alt="image" src="https://github.com/user-attachments/assets/ed477a19-5133-42e6-8001-3a68d0df4a82" />
 
-Button Delete :
+Button Delete :  
  <img width="855" height="598" alt="image" src="https://github.com/user-attachments/assets/50d0e300-8395-43fc-b850-a9fae2200420" />
 
-Button Upload :
+Button Upload :  
  <img width="856" height="544" alt="image" src="https://github.com/user-attachments/assets/d572fb78-f302-43bd-a801-171736dda663" />  
  <img width="844" height="564" alt="image" src="https://github.com/user-attachments/assets/a0f9e959-174c-4591-8b45-71f5286d3cf5" />  
  <img width="927" height="119" alt="image" src="https://github.com/user-attachments/assets/a3d6b873-4ef3-4e92-9d77-5a52db8a925b" />
 
-tampilData() untuk menampilkan data ke table :
+tampilData() untuk menampilkan data ke table :  
  <img width="906" height="510" alt="image" src="https://github.com/user-attachments/assets/b7ef2135-4148-4f85-bbf7-0955f4bc9cc4" />  
  <img width="884" height="109" alt="image" src="https://github.com/user-attachments/assets/48f21898-2ac8-4320-a5d3-570e9bbbdc79" />
 
