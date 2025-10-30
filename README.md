@@ -5,15 +5,17 @@ Di dalam bahasa pemrograman Java, pengelolaan data yang terhubung ke database da
 
 Melalui praktikum ini, mahasiswa diharapkan memahami bagaimana cara kerja persistence pada Java, cara menghubungkannya dengan database MySQL, serta bagaimana memanfaatkan Entity dan Persistence Unit untuk melakukan proses penyimpanan data.
 
-1.	Pengertian Persistence
+# Pengertian Persistence
 Persistence adalah kemampuan suatu program untuk menyimpan data secara permanen ke dalam media penyimpanan seperti database, file, atau sistem eksternal lainnya. Dalam konteks Java, persistence memungkinkan objek Java untuk tetap tersimpan meskipun program sudah berhenti dijalankan.
 program.
-2.	Java Persistence (JPA)
+
+# Java Persistence (JPA)
 JPA merupakan spesifikasi dari Java yang menyediakan standar untuk Object Relational Mapping (ORM), yaitu proses memetakan objek Java ke tabel dalam database relasional. JPA memudahkan pengembang dalam mengelola data tanpa harus menulis banyak kode SQL.
-3.	Komponen Utama dalam JPA  
-a.	Entity  
+
+# Komponen Utama dalam JPA  
+1.	Entity  
 Kelas Java yang mewakili tabel dalam database. Setiap atribut dalam kelas ini merepresentasikan kolom tabel.  
-b.	Persistence Unit  
+2.	Persistence Unit  
 Merupakan konfigurasi utama JPA yang berisi informasi tentang nama database, driver, user, password, dan nama provider. File konfigurasi ini terdapat di folder META-INF/persistence.xml.
 
 # Langkah - Langkah Project 
