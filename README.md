@@ -10,10 +10,10 @@ Persistence adalah kemampuan suatu program untuk menyimpan data secara permanen 
 program.
 2.	Java Persistence (JPA)
 JPA merupakan spesifikasi dari Java yang menyediakan standar untuk Object Relational Mapping (ORM), yaitu proses memetakan objek Java ke tabel dalam database relasional. JPA memudahkan pengembang dalam mengelola data tanpa harus menulis banyak kode SQL.
-3.	Komponen Utama dalam JPA
-a.	Entity
-Kelas Java yang mewakili tabel dalam database. Setiap atribut dalam kelas ini merepresentasikan kolom tabel.
-b.	Persistence Unit
+3.	Komponen Utama dalam JPA  
+a.	Entity  
+Kelas Java yang mewakili tabel dalam database. Setiap atribut dalam kelas ini merepresentasikan kolom tabel.  
+b.	Persistence Unit  
 Merupakan konfigurasi utama JPA yang berisi informasi tentang nama database, driver, user, password, dan nama provider. File konfigurasi ini terdapat di folder META-INF/persistence.xml.
 
 # Langkah - Langkah Project 
